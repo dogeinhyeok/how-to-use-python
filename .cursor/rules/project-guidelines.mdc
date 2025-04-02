@@ -11,15 +11,15 @@ alwaysApply: true
 
 ### 코드 저장: /src 폴더
 
-- section-01/chapter-01/*.ts
-- section-01/chapter-02/*.ts
-- section-02/chapter-01/*.ts
+- chapter-01/section-01/*.py
+- chapter-01/section-02/*.py
+- chapter-02/section-01/*.py
 
-### 코드 체계: section > chapter 구조
+### 코드 체계: chapter > section 구조
 
-- section: 큰 주제별 구분 (예: 기본 문법, 타입 시스템, 고급 기능 등)
-- chapter: 세부 주제별 구분 (예: 변수 선언, 함수 타입, 제네릭 등)
-- 파일명 형식: section-XX/chapter-XX/파일명
+- chapter: 큰 주제별 구분 (예: 기본 문법, 타입 시스템, 고급 기능 등)
+- section: 세부 주제별 구분 (예: 변수 선언, 함수 타입, 제네릭 등)
+- 파일명 형식: chapter-XX/section-XX/파일명
 
 ## 코드 주석 작성 규칙
 
