@@ -74,8 +74,8 @@ print()
 
 # 9. 다양한 변수 선언
 """
-> Pascal Case : NumberOfCollegeGraduates -> Class
-> Snake Case : number_of_college_graduates -> Variable, Function, File, Folder
-> Kebab Case : number-of-college-graduates -> URL, HTML, CSS
+> Pascal Case: NumberOfCollegeGraduates -> Class
+> Snake Case: number_of_college_graduates -> Variable, Function, File, Folder
+> Kebab Case: number-of-college-graduates -> URL, HTML, CSS
 > + 예약어는 변수명으로 사용 불가
 """

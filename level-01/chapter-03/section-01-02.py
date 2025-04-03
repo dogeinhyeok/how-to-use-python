@@ -22,20 +22,20 @@ print()
 
 # 4. 구분기호
 m = 100000000
-print(f"m : {m:,}")
+print(f"m: {m:,}")
 print()
 
 # 6. 정렬
 """
-> ^ : 가운데 정렬
-> < : 왼쪽 정렬
-> > : 오른쪽 정렬
+> ^: 가운데 정렬
+> <: 왼쪽 정렬
+> >: 오른쪽 정렬
 """
 t = 20
-print(f"t : {t:20}")
-print(f"t : {t:^20}")
-print(f"t : {t:<20}")
-print(f"t : {t:>20}")
-print(f"t : {t:-^20}")
-print(f"t : {t:#^20}")
+print(f"t: {t:20}")
+print(f"t: {t:^20}")
+print(f"t: {t:<20}")
+print(f"t: {t:>20}")
+print(f"t: {t:-^20}")
+print(f"t: {t:#^20}")
 print()

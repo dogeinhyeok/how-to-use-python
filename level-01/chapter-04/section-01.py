@@ -1,16 +1,16 @@
 import math
 
-# 자료형
+# 자료형(Data Type)
 """
-int : 정수
-float : 실수
-complex : 복소수
-bool : 불린
-str : 문자열(시퀀스)
-list : 리스트(시퀀스)
-tuple : 튜플(시퀀스)
-set : 집합(시퀀스)
-dict : 딕셔너리(키-값 쌍)
+> int : 정수
+> float : 실수
+> complex : 복소수
+> bool : 불린
+> str : 문자열(시퀀스)
+> list : 리스트(시퀀스)
+> tuple : 튜플(시퀀스)
+> set : 집합(시퀀스)
+> dict : 딕셔너리(키-값 쌍)
 """
 
 # 1. 데이터 타입
@@ -38,14 +38,14 @@ print()
 
 # 3. 숫자형 연산자
 """
-+
--
-*
-/
-// : 몫
-% : 나머지
-abs(x) : 절대값
-pow(x, y) : 거듭제곱
+> + : 더하기
+> - : 빼기
+> * : 곱하기
+> / : 나누기
+> // : 몫
+> % : 나머지
+> abs(x) : 절대값
+> pow(x, y) : 거듭제곱
 """
 
 # 4. 정수 선언
@@ -76,16 +76,16 @@ big_int2 = 9999999999999999999999999999999999999999999
 
 # 7.1. +
 print(">>>>>+")
-print("i1 + i2 : ", i1 + i2)
-print("f1 + f2 : ", f1 + f2)
-print("big_int1 + big_int2 : ", big_int1 + big_int2)
+print("i1 + i2:", i1 + i2)
+print("f1 + f2:", f1 + f2)
+print("big_int1 + big_int2:", big_int1 + big_int2)
 print()
 
 # 7.2. *
 print(">>>>>*")
-print("i1 * i2 : ", i1 * i2)
-print("f1 * f2 : ", f1 * f2)
-print("big_int1 * big_int2 : ", big_int1 * big_int2)
+print("i1 * i2:", i1 * i2)
+print("f1 * f2:", f1 * f2)
+print("big_int1 * big_int2:", big_int1 * big_int2)
 print()
 
 # 8. 형 변환 실습

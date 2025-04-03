@@ -1,4 +1,4 @@
-# 문자열
+# 문자열 자료형(String)
 
 # 1. 문자열 생성
 str_1 = "I am Python"
@@ -68,12 +68,12 @@ print()
 
 # 8. 문자열 함수(upper, isalnum, startswith, count, endswith, isalpha...)
 str_py = "python is powerful"
-print("Capitalize: ", str_py.capitalize())
-print("endswith?: ", str_py.endswith("ful"))
-print("startswith?: ", str_py.startswith("py"))
-print("replace: ", str_py.replace("powerful", "awsome"))
-print("sorted: ", sorted(str_py))
-print("split: ", str_py.split(" "))
+print("Capitalize:", str_py.capitalize())
+print("endswith?:", str_py.endswith("ful"))
+print("startswith?:", str_py.startswith("py"))
+print("replace:", str_py.replace("powerful", "awsome"))
+print("sorted:", sorted(str_py))
+print("split:", str_py.split(" "))
 print()
 
 # 9. 반복(시퀀스)
