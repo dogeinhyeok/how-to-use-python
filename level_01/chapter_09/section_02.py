@@ -20,14 +20,18 @@ print("---")
 
 # 2. pickle: 파일 읽기/쓰기
 
+# 현재 파일의 절대 경로를 기준으로 상대 경로 계산
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(current_dir, "test.obj")
+
 # 2.1. 파일 쓰기
-f = open("test.obj", "wb")
+f = open(file_path, "wb")
 obj = {1: "python", 2: "study", 3: "basic"}
 pickle.dump(obj, f)
 f.close()
 
 # 2.2. 파일 읽기
-f = open("test.obj", "rb")
+f = open(file_path, "rb")
 data = pickle.load(f)
 print(data, type(data))
 f.close()
