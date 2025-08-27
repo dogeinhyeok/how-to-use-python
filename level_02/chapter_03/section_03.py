@@ -1,6 +1,4 @@
 # 객체 지향 프로그래밍(OOP)
-
-
 class Car:
     """
     Car 클래스
@@ -63,23 +61,23 @@ car2 = Car("BMW", {"color": "Black", "horsepower": 270, "price": 5000})
 # 2. 전체 정보
 car1.detail_info()
 car2.detail_info()
-print("---")
+print()
 
 # 3. 가격 정보
 print(car1._details.get("price"))
 print(car1._details["price"])
-print("---")
+print()
 
 # 4. 가격 인상
 print(car1.get_price())
 print(car2.get_price())
-print("---")
+print()
 
 # 4.1. 클래스 변수 사용
 Car.price_per_raise = 1.4
 print(car1.get_price_culc())
 print(car2.get_price_culc())
-print("---")
+print()
 
 # 4.2.클래스 메소드 사용
 """
@@ -90,7 +88,7 @@ print("---")
 Car.raise_price(1.6)
 print(car1.get_price_culc())
 print(car2.get_price_culc())
-print("---")
+print()
 
 # 4.3. 스테틱 메소드 사용
 """
@@ -100,3 +98,4 @@ print("---")
 """
 print(car1.is_bmw(car1))
 print(car2.is_bmw(car2))
+print()

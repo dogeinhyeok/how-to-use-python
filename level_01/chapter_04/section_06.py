@@ -69,3 +69,4 @@ s1.discard(3)  # 없는 값 제거 시 에러 발생하지 않음
 print("s1:", s1)
 s1.clear()
 print("s1:", s1)
+print()

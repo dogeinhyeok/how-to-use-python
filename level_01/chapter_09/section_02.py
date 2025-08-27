@@ -16,7 +16,7 @@ print(sys.argv)
 
 # 1.3. 파이썬 패키지 경로
 print(sys.path)
-print("---")
+print()
 
 # 2. pickle: 파일 읽기/쓰기
 
@@ -35,7 +35,7 @@ f = open(file_path, "rb")
 data = pickle.load(f)
 print(data, type(data))
 f.close()
-print("---")
+print()
 
 # 3. os: 운영체제 관련 정보 제공
 
@@ -45,7 +45,7 @@ print(os.environ["CUDA_PATH"])
 
 # 3.2. 현재 경로
 print(os.getcwd())
-print("---")
+print()
 
 # 4. time: 시간 관련 정보 제공
 
@@ -65,7 +65,7 @@ print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(time.time())))
 for i in range(5):
     print(i)
     time.sleep(0.05)
-print("---")
+print()
 
 # 5. random: 랜덤 관련 정보 제공
 
@@ -84,10 +84,11 @@ print(d)
 # 5.4. 랜덤 문자 생성
 c = random.choice(d)
 print(c)
-print("---")
+print()
 
 # 6. webbrowser: 웹 브라우저 관련 정보 제공
 
 # 6.1. 웹 브라우저 실행
 webbrowser.open("https://google.com")
 webbrowser.open_new("https://google.com")
+print()

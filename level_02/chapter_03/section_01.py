@@ -22,7 +22,7 @@ print(car_detail_2)
 print(car_company_3)
 print(car_detail_3)
 
-print("---")
+print()
 
 # 2. 리스트 구조
 car_company_list = ["Ferrari", "BMW", "Audi"]
@@ -38,7 +38,7 @@ del car_detail_list[1]
 print(car_company_list)
 print(car_detail_list)
 
-print("---")
+print()
 
 # 3. 딕셔너리 구조
 car_dicts = [
@@ -72,7 +72,7 @@ del car_dicts[1]
 
 print(car_dicts)
 
-print("---")
+print()
 
 # 4. 클래스 구조
 
@@ -102,3 +102,5 @@ for x in car_list:
 
 for x in car_list:
     print(x.__dict__)
+
+print()

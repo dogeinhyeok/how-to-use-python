@@ -6,6 +6,7 @@ try:
     print(f"OK. Your number is {n}")
 except ValueError:
     print("This is not a number.")
+print()
 
 # 2. 예외 처리 반복
 while True:
@@ -15,3 +16,4 @@ while True:
         break
     except ValueError:
         print("This is not a number.")
+print()

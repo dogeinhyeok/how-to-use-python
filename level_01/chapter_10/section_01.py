@@ -22,7 +22,7 @@ print("file mode:", f.mode)  # 모드 확인
 cts = f.read()  # 파일 내용 전체 읽기
 print("file contents:", cts)
 f.close()  # 파일 닫기
-print("---")
+print()
 
 # 3. 파일 전체 읽기
 with open(file_path, "r", encoding="UTF-8") as f:
@@ -30,7 +30,7 @@ with open(file_path, "r", encoding="UTF-8") as f:
     print("file contents:", cts)
     print(iter(cts))
     print(list(cts))
-print("---")
+print()
 
 # 4. 한 글자씩 읽기
 with open(file_path, "r", encoding="UTF-8") as f:
@@ -40,7 +40,7 @@ with open(file_path, "r", encoding="UTF-8") as f:
     print("file contents:", cts)
     cts = f.read(1)
     print("file contents:", cts)
-print("---")
+print()
 
 # 5. 한 줄씩 읽기
 with open(file_path, "r", encoding="UTF-8") as f:
@@ -48,7 +48,7 @@ with open(file_path, "r", encoding="UTF-8") as f:
     print("line:", line, end="")
     line = f.readline()
     print("line:", line)
-print("---")
+print()
 
 # 6. 전체를 읽기 후 한 줄씩 쓰기
 with open(file_path, "r", encoding="UTF-8") as f:
@@ -57,7 +57,7 @@ with open(file_path, "r", encoding="UTF-8") as f:
     for c in cts:
         print(c, end="")
     print()
-print("---")
+print()
 
 # 7. 파일 쓰기
 file_path = os.path.join(current_dir, "contents1.txt")
@@ -86,3 +86,4 @@ with open(file_path, "w", encoding="UTF-8") as f:
     print("Test Text Write!", file=f)
     print("Test Text Write!", file=f)
     print("Test Text Write!", file=f)
+print()

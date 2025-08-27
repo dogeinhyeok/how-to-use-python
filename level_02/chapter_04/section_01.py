@@ -9,12 +9,12 @@
 # 1. 기본형
 print(int)
 print(float)
-print("---")
+print()
 
 # 2. 모든 속성 및 메소드 출력
 print(f"dir(int): {dir(int)}")
 print(f"dir(float): {dir(float)}")
-print("---")
+print()
 
 # 3. 매직 메소드 사용 예시
 n = 10
@@ -23,7 +23,7 @@ print(n.__add__(100))
 print(n.__doc__)  # 문서화 문자열
 print(n.__bool__(), bool(n))
 print(n * 100, n.__mul__(100))
-print("---")
+print()
 
 
 # 4. 매직 메소드 오버로딩
@@ -59,4 +59,4 @@ print(s1 + s2)
 print(s1 - s2)
 print(s1 <= s2)
 print(s1 >= s2)
-print("---")
+print()

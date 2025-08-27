@@ -81,8 +81,10 @@ print("a:", a.count(4))
 ex = [8, 9]
 a.extend(ex)
 print("a:", a)
+print()
 
 # 삭제 : remove, pop, del
 while a:
     data = a.pop()
     print(data)
+print()

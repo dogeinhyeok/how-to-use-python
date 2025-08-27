@@ -14,7 +14,7 @@ class Dog:  # object 상속
 
 # 1.1. 클래스 정보
 print(Dog)
-print("---")
+print()
 
 # 1.2. 인스턴스화
 a = Dog("mikky", 2)
@@ -22,24 +22,24 @@ b = Dog("baby", 3)
 
 # 1.3. 비교(둘이 다른 인스턴스)
 print(a == b, id(a), id(b))
-print("---")
+print()
 
 # 1.4. 클래스 내부 속성 확인
 print("dog1:", a.__dict__)
 print("dog2:", b.__dict__)
-print("---")
+print()
 
 # 1.5. 인스턴스 속성 확인
 print(f"{a.name} is {a.age} and {b.name} is {b.age}")
 if a.species == "firstdog":
     print(f"{a.name} is a {a.species}")
-print("---")
+print()
 
 # 1.6. 클래스 변수
 print(Dog.species)
 print(a.species)
 print(b.species)
-print("---")
+print()
 
 
 # 2. 예제 2
@@ -56,7 +56,7 @@ f = SelfTest()  # 인스턴스 생성
 
 # 2.1. id 호출
 print(id(f))
-print("---")
+print()
 
 # 2.2. 인스턴스 메서드 호출(전역 함수)
 f.func2()
@@ -64,7 +64,7 @@ f.func2()
 # 2.3. 클래스 메서드 호출
 SelfTest.func1()
 SelfTest.func2(f)
-print("---")
+print()
 
 
 # 3. 예제 3
@@ -89,18 +89,18 @@ user2 = Warehouse("Cho")
 print(Warehouse.stock_num)
 print(f"id: {id(user1)}, user1: {user1.name}, stock_num: {user1.stock_num}")
 print(f"id: {id(user2)}, user2: {user2.name}, stock_num: {user2.stock_num}")
-print("---")
+print()
 
 Warehouse.stock_num = 50
 print(Warehouse.stock_num)
 print(f"id: {id(user1)}, user1: {user1.name}, stock_num: {user1.stock_num}")
 print(f"id: {id(user2)}, user2: {user2.name}, stock_num: {user2.stock_num}")
-print("---")
+print()
 
 # 3.2. 인스턴스 삭제
 del user1  # 소멸자 호출
 print("after:", Warehouse.stock_num)  # 50 - 1
-print("---")
+print()
 
 
 # 4. 예제 4
@@ -129,3 +129,4 @@ print(c.info())
 print(d.info())
 print(c.speak("Wal Wal"))
 print(d.speak("Mung Mung"))
+print()

@@ -79,3 +79,4 @@ while True:
     if not a:
         break
     print(a.pop())
+print()

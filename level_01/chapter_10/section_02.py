@@ -15,7 +15,7 @@ with open(file_path, "r") as f:
     print(dir(reader))  # 속성 확인
     for c in reader:
         print(c)
-print("---")
+print()
 
 # 2. 파일 기본 정보 읽기
 file_path = os.path.join(current_dir, "test2.csv")
@@ -23,7 +23,7 @@ with open(file_path, "r") as f:
     reader = csv.reader(f, delimiter="|")
     for c in reader:
         print(c)
-print("---")
+print()
 
 # 3. 파일 딕셔너리 형식 읽기
 file_path = os.path.join(current_dir, "test1.csv")
@@ -35,7 +35,7 @@ with open(file_path, "r") as f:
     for c in reader:
         for k, v in c.items():
             print(f"{k}: {v}")
-print("---")
+print()
 
 # 4. 파일 쓰기
 file_path = os.path.join(current_dir, "write1.csv")
@@ -65,3 +65,4 @@ with open(file_path, "w", encoding="utf-8") as f:
     for v in w:
         row_dict = {"One": v[0], "Two": v[1], "Three": v[2]}  # 딕셔너리 형태로 변환
         wt.writerow(row_dict)
+print()

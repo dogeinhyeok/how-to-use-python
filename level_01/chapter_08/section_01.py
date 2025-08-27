@@ -63,7 +63,7 @@ try:
     print(f"{z} Found it! {x + 1} is name")
 except ValueError:  # 예외 발생 시 실행
     print("Not found it! - Occurred ValueError!")
-print("---")
+print()
 
 # 10.2. 예제 2
 try:
@@ -77,7 +77,7 @@ else:  # 예외 발생 시 실행되지 않음
     print("Ok! else.")
 finally:  # 예외 발생 여부 상관 없이 실행
     print("Ok! finally.")
-print("---")
+print()
 
 # 10.3. 예제 3
 try:
@@ -90,3 +90,4 @@ except ValueError:
     print("Occurred! ValueError!")
 else:
     print("Ok! else.")
+print()
