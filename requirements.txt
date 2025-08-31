@@ -1,0 +1,9 @@
+# 파이썬 학습 프로젝트 의존성 패키지
+
+# 외부 패키지들 (표준 라이브러리가 아닌 것들)
+beautifulsoup4==4.13.5
+
+# 참고: 다음 패키지들은 파이썬 표준 라이브러리에 포함되어 있어 별도 설치 불필요
+# - asyncio (Python 3.4+)
+# - csv, os, sys, time, random, pickle, webbrowser (기본 내장 모듈)
+# - math, inspect, collections (기본 내장 모듈)
