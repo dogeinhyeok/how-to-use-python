@@ -6,7 +6,6 @@ project_root = os.path.dirname(os.path.dirname(os.path.dirname(current_file)))
 testfile1 = os.path.join(project_root, 'output', 'testfile1.txt')
 testfile2 = os.path.join(project_root, 'output', 'testfile2.txt')
 testfile3 = os.path.join(project_root, 'output', 'testfile3.txt')
-testfile4 = os.path.join(project_root, 'output', 'testfile4.txt')
 
 # 예제 1
 file = open(testfile1, 'w')
